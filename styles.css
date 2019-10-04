@@ -1,32 +1,59 @@
 
 body{
-	color: grey;
+	background: grey;
 }
 
-div{
-	color: red;
-}
-
-.header{
+.intro{
+	background-image: url("https://cdn.pixabay.com/photo/2017/03/17/19/37/sky-2152463_960_720.jpg");
 	display: flex;
 	justify-content: center;
+	text-align: center;
 	flex-direction: column;
-}
-
-.container {
-	color: pink;
-	width: 30px;
-	height: 10px;
-}
-
-.interior {
-	display: inline-flex;
-	justify-content: space-around;
-
+	color: black;
 }
 
 h1 {
-	color: black;
+	color: white;
 	display: flex;
 	justify-content: center;
 }
+
+h4{
+	font-family: Arial;
+	text-align: center;
+	color: black;
+}
+
+h3{
+	font-family: Arial
+	text-align: center;
+	color: black;
+
+}
+
+p{
+	color: black;
+	margin-top: 0;
+	text-align: center;
+
+}
+
+.container{
+	background-color: SlateBlue;
+	display:flex;
+	justify-content:center;
+	flex-flow: row;
+}
+
+.box1{
+	background-color: rgb(255, 189, 71);
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-bottom: 25px;
+	margin-top: 25px;
+	display:flex;
+	align-items:center;
+	justify-content: center;
+	flex-flow: column;
+}
+
